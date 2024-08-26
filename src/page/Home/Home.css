@@ -39,7 +39,12 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    overflow: scroll;
 }
+
+.Home_main_container_message_data::-webkit-scrollbar {
+    display: none;
+  }
 .Home_main_container_message_send{
     /* background-color: teal; */
     border-bottom: 1px solid rgb(68, 68, 68);
