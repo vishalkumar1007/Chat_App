@@ -1,0 +1,27 @@
+.send_message_preview_main{
+    /* background-color: rgb(29, 29, 29); */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+.send_message_preview_main_span{
+    background-color: rgb(39, 59, 39);
+    width: fit-content;
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.send_message_preview_main_span p{
+    text-align: end;
+    color: #ababab;
+    font-weight: 350;
+}
